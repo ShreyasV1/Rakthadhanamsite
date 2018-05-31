@@ -1,0 +1,50 @@
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.navbar-header
+{
+   position: container-fluid;
+   padding: 12px;
+   margin-bottom: 0;
+   margin-left: 0px;
+   margin-right:0px;
+    
+}
+.navbar-inverse .navbar-brand {
+    color: white !important;
+}
+ul.dropdown-menu {
+	background-color: black;	
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    background-color: black;
+    color: white !important;
+    white-space: nowrap;
+}
+
+ul.nav.navbar-nav.navbar-right{
+	padding: 12px;
+	background-color: black;
+   color: white;	
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white !important;
+}
+
+.footer {
+   position: container-fluid;
+   padding: 20px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   width: 100%;
+}
